@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stefli.demo.TableDemoEntityMapper" >
+  <resultMap id="BaseResultMap" type="com.stefli.demo.entity.TableDemoEntity" >
+
+    <id column="id" property="id" jdbcType="LONG" />
+	<result column="id" property="id" jdbcType="DECIMAL" />
+	<result column="name" property="name" jdbcType="VARCHAR" />
+	<result column="EntryId" property="EntryId" jdbcType="VARCHAR" />
+	<result column="EntryDt" property="EntryDt" jdbcType="DATETIME" />
+  </resultMap>
+</mapper>
